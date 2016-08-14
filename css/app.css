@@ -1,0 +1,130 @@
+/* START DEFAULT */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@font-face {
+    src: url('../fonts/Arkitech_Light.otf');
+    font-family: Arkitech_Light;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Arkitech_Light', sans-serif;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    background-color: #efefef;
+    color: #0a0a0a;
+    padding: 3em 0;
+    margin-top: 2em;
+}
+
+.dotted{
+    border: 1px dashed  #c0c0c0;
+}
+
+/* END DEFAULT */
+
+/* START OFFCANVAS */
+
+.off-canvas{
+    height: 100%;
+    background-color: #F58634;
+}
+
+.off-canvas-left-menu{
+    margin: 2em 0 0 1em;
+    color: #fff;
+}
+
+.off-canvas-left-menu a{
+    color: #fff;
+}
+
+.off-canvas-left-menu a:hover{
+    color: #e5e5e5;
+}
+
+/* END OFFCANVAS */
+
+/* START HEADER  */
+
+.row-style{
+    background-color: #F58634;
+    padding: 0.3em 0;
+}
+
+.title-bar{
+    color: #000;
+    background-color: #fff;
+    border-bottom: 1px solid #c0c0c0;
+    padding-top: 1em;
+}
+
+.title-bar-left{
+    padding: 0.4em 0;
+}
+
+.top-bar{
+    color: #000;
+    background-color: #fff;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.top-bar .top-bar-left, .top-bar .top-bar-right, .top-bar .menu{
+    background-color: #fff !important;
+}
+
+.top-bar-right{
+    padding: 1em 0;
+}
+
+/* END HEADER  */
+
+/* START MAIN-CONTENT */
+
+.nsw-link-orange a{
+    color: #F58634;
+    transition: 0.5s;
+}
+
+.nsw-link-orange a:hover{
+    color: #8a8a8a;
+    transition: 0.5s;
+}
+
+#main-content{
+
+}
+
+#menu-content{
+    padding-top: 2em;
+}
+
+#content{
+    padding: 2em 1em 0 2em;
+}
+
+/* END MAIN-CONTENT */
+
+/* START MATERIAL DESIGN ICONS */
+
+.mdi-1x{
+    font-size: 1em;
+}
+.mdi-2x{
+    font-size: 2em;
+}
+.mdi-3x{
+    font-size: 3em;
+}
+.mdi-4x{
+    font-size: 4em;
+}
+.mdi-5x{
+    font-size: 5em;
+}
+
+/* END MATERIAL DESIGN ICONS */
